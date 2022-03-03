@@ -8,3 +8,4 @@ contract Ballot {
   }
   struct Proposal {
     bytes32 name;
+    newline
