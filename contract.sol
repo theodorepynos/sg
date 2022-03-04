@@ -8,4 +8,7 @@ contract Ballot {
   }
   struct Proposal {
     bytes32 name;
-    newline
+    uint voteCount;
+  }
+  address public chairperson;
+  mapping(address => Voter) public voters;
